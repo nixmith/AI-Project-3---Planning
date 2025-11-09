@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Example Planner"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Example Planner/planning.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Example%20Planner/planning.jar!/doc"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="planners/bb.jar"/>
+	<classpathentry kind="lib" path="planners/bfs.jar"/>
+	<classpathentry kind="lib" path="planners/gp.jar"/>
+	<classpathentry kind="lib" path="planners/hsp.jar"/>
+	<classpathentry kind="lib" path="planners/pop.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
